@@ -1,4 +1,4 @@
-#include <stdio.h> //Them thu vien
+#include <stdio.h> 
 
 #define LINE_1 0x80
 #define LINE_2 0xC0
@@ -14,7 +14,7 @@
 #define LCD_RW 	P0_2
 #define LCD_E 	P0_3
 
-//Cac h‡m LCD
+//Cac h√†m LCD
 void delay_us(unsigned int Time)
 {
 	unsigned int i,j;
